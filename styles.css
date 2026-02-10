@@ -1,0 +1,126 @@
+body {
+    background-color: #a3b8b6;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    background-color: #3a8367;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+
+.one {
+    background-image: url(Dachshund.jpeg);
+}
+
+.two {
+    background-image: url(American-Pit-Bull-Terrier.jpeg);
+}
+
+.three {
+    background-image: url(Golden-Retriever.jpeg);
+}
+
+.four {
+    background-image: url(Yorkshire-Terrier.jpeg);
+}
+
+.five {
+    background-image: url(Labrador.jpeg);
+}
+
+.six {
+    background-image: url(Welsh-Corgi.jpeg);
+}
+
+.item {
+    height: 65vh;
+    width: 10vh; 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Tangerine', cursive;
+    margin: 5px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+h4 {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color: #fff;
+    /* border-radius: 20px; */
+    color: #000000;
+    font-size: 0;
+}
+
+.age {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    background-color: #fff;
+    /* border-radius: 20px; */
+    color: #000000;
+    font-size: 0;
+}
+
+.dogs {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    background-color: #fff;
+    /* border-radius: 20px; */
+    color: #000000;
+    font-size: 0;
+}
+
+.selected {
+    flex: 4;
+}
+
+.selected h4 {
+    font-size: 50px;
+    transition: all 1s ease-in;
+}
+
+.selected .age {
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+
+.selected .dogs {
+    font-size: 55px;
+    transition: all 1s ease-in;
+}
+
+label {
+    font-size: 40px;
+    font-family: 'Tangerine', cursive;
+}
+
+.text-input {
+    background-color: #d6e4e3;
+    border: none;
+}
+
+.btn {
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    background-color: #CFD2CF;
+    padding-left: 150px;
+    padding-right: 150px;
+}
